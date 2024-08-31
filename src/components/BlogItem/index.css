@@ -1,0 +1,37 @@
+/* Write your CSS code here */
+.item-container {
+  list-style-type: none;
+  padding: 10px;
+}
+.detail-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: roboto;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: 14px;
+  font-weight: 500;
+}
+.para {
+  font-size: 12px;
+  font-weight: 500;
+  color: #9aa5b1;
+}
+.date {
+  font-size: 14px;
+  font-weight: 500;
+  color: #9aa5b1;
+}
+@media screen and (min-width:768px){
+  .heading{
+    font-size: 21px;
+  }
+  .para{
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-img {
+  width: 60px;
+}
+.heading {
+  font-family: roboto;
+  font-size: 12px;
+  font-weight: 500;
+}
+.para {
+  font-family: roboto;
+  font-size: 12px;
+  font-weight: 500;
+  color: #616e7c;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size:24px;
+  }
+  .para {
+    font-size: 16px;
+  }
+  .profile-img {
+    width: 90px;
+  }
+}
